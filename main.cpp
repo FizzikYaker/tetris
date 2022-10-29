@@ -75,8 +75,8 @@ int main()
     RenderWindow window(VideoMode(N * w, M * w), "Tetris ot VlaDIKa"); //Окно приложения
 
     Texture t;
-    t.loadFromFile("C:/project/tiles.png"); //Подключение фигуры
-    Sprite tiles(t);                        // Получение спрайта
+    t.loadFromFile("tiles.png"); //Подключение фигуры
+    Sprite tiles(t);             // Получение спрайта
 
     int dx = 0, colorNum = 1;
     bool rotate = false;
